@@ -1,0 +1,60 @@
+
+body {
+    color:rgb(255, 255, 255);
+    font-family: "Chakra Petch", sans-serif;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 60px;
+}
+
+header {
+    border-bottom:solid 2px     rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+.Viana{
+    background: rgb(100, 101, 101);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.viana-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+.links-irados{
+    display: flex;
+    overflow-x: auto;
+    gap:12px;
+}
+
+.recomendacao{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.links-irados img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.links-irados img:hover {
+    opacity: 1.0;
+    border: 2px solid white;
+}
